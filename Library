@@ -579,7 +579,7 @@ function Library.Main(Text,keycode)
 		CategoryName.Font = Enum.Font.SourceSansSemibold
 		CategoryName.TextColor3 = Color3.fromRGB(134, 134, 134)
 		CategoryName.TextSize = 21.000
-		CategoryName.TextXAlignment = Enum.TextXAlignment.Left
+		CategoryName.TextXAlignment = Enum.TextXAlignment.Center
 		CategoryName.Text = " " .. Text
 
 		List.Name = "List"
