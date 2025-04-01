@@ -40,7 +40,7 @@ function Library.Loader(ScriptName,steps,EndFunc)
     ScriptNameLaberl.Parent = Main
     ScriptNameLaberl.AnchorPoint = Vector2.new(0.5, 0)
     ScriptNameLaberl.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    ScriptNameLaberl.BackgroundTransparency = 1.000
+    ScriptNameLaberl.BackgroundTransparency = 0.080
     ScriptNameLaberl.BorderSizePixel = 0
     ScriptNameLaberl.Position = UDim2.new(0.5, 0, 0.0130000003, 0)
     ScriptNameLaberl.Size = UDim2.new(0.602857172, 0, 0.0498338863, 0)
@@ -579,7 +579,7 @@ function Library.Main(Text,keycode)
 		CategoryName.Font = Enum.Font.SourceSansSemibold
 		CategoryName.TextColor3 = Color3.fromRGB(134, 134, 134)
 		CategoryName.TextSize = 21.000
-		CategoryName.TextXAlignment = Enum.TextXAlignment.Center
+		CategoryName.TextXAlignment = Enum.TextXAlignment.Left
 		CategoryName.Text = " " .. Text
 
 		List.Name = "List"
