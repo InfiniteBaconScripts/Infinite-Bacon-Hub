@@ -63,7 +63,7 @@ function Library.Loader(ScriptName,steps,EndFunc)
     LoadingStatusLabel.Parent = Main
     LoadingStatusLabel.AnchorPoint = Vector2.new(0.5, 0)
     LoadingStatusLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    LoadingStatusLabel.BackgroundTransparency = 1.000
+    LoadingStatusLabel.BackgroundTransparency = 1.00
     LoadingStatusLabel.BorderSizePixel = 0
     LoadingStatusLabel.Position = UDim2.new(0.5, 0, 0.884066403, 0)
     LoadingStatusLabel.Size = UDim2.new(0.91142863, 0, 0.0498338863, 0)
